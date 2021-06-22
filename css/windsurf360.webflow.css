@@ -3566,7 +3566,7 @@ figcaption {
   position: relative;
   z-index: 2;
   overflow: hidden;
-  width: 300px;
+  width: 400px;
   height: 300px;
   border-radius: 10px;
 }
@@ -3612,7 +3612,7 @@ figcaption {
 
 .feature-gradient {
   position: absolute;
-  width: 150%;
+  width: 108%;
   height: 150%;
   border-radius: 50%;
   background-image: radial-gradient(circle farthest-corner at 50% 50%, #8ea5a0, rgba(142, 165, 160, 0) 71%);

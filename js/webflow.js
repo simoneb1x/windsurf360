@@ -60240,7 +60240,8 @@ var USYS_UTILITY_KEYS = {
   'usys-sign-up': 'usys-sign-up',
   'usys-reset-password': 'usys-reset-password',
   'usys-update-password': 'usys-update-password',
-  'usys-access-denied': 'usys-access-denied'
+  'usys-access-denied': 'usys-access-denied',
+  'usys-user-account': 'usys-user-account'
 };
 exports.USYS_UTILITY_KEYS = USYS_UTILITY_KEYS;
 var USYS_DATA_ATTRS = {
@@ -60309,6 +60310,13 @@ var USYS_PAGE_SETTINGS = {
     utilKey: 'usys-access-denied',
     slug: 'access-denied',
     title: 'Access Denied'
+  },
+  userAccount: {
+    parent: null,
+    sortPos: 5,
+    utilKey: 'usys-user-account',
+    slug: 'user-account',
+    title: 'User Account'
   }
 }; // The length expressed here is in bytes, that means that some characters will
 // count as more than 1 byte, like: á, é, í, ó, ú, etc.
